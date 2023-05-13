@@ -1,0 +1,11 @@
+$font : 'Exo 2', sans-serif;
+$fontSize: 27px;
+
+%button {
+	font-size: $fontSize;
+	color: white;
+	margin-left: 1%;
+	padding: 1% 8%;
+	border-radius: 10px;
+	font-family: $font;
+}

@@ -1,0 +1,30 @@
+@import './styles.scss';
+
+@media (max-width: 375px) {
+	header {
+		color: white;
+		background-color: black;
+		font-size: 27px;
+		.container {
+			padding: 0.7%;
+			max-width: 1200px;
+			margin: auto;
+			display: flex;
+			text-align: center;
+			flex-direction: column;
+		}
+		.container__list {
+			margin-top: 3%;
+			margin-right: 5%;
+			display: flex;
+		}
+		.list__nav {
+			cursor: pointer;
+			margin-left: 2.5%;
+			&:hover{
+				transition: all 0.3s;
+				color: red;
+			}
+		}
+	}
+}
