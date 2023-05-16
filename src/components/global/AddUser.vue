@@ -24,12 +24,6 @@ const deleteUser = (index) => {
 	users.splice(index, 1)
 }
 
-let bool = ref(false)
-
-setTimeout(() => {
-	bool.value = true
-}, 1000);
-
 </script>
 
 <template>
