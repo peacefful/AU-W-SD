@@ -1,9 +1,9 @@
 <script setup>
-import Container from "./components/Container.vue"
+import Container from './components/Container.vue'
 </script>
 
 <template>
-	<main>
-		<Container/>
-	</main>
+  <main>
+    <Container />
+  </main>
 </template>
