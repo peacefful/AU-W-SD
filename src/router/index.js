@@ -1,6 +1,5 @@
 import { createWebHistory, createRouter } from 'vue-router'
 import Container from '@/components/Container.vue'
-import Test from '@/components/Test.vue'
 import SendData from '@/components/global/SendData.vue'
 import AddUser from '@/components//global/AddUser.vue'
 import Weather from '@/components//global/Weather.vue'
@@ -15,11 +14,6 @@ const routes = [
     path: '/weather',
     name: 'Weather',
     component: Weather
-  },
-  {
-    path: '/testone',
-    name: 'Test',
-    component: Test
   },
   {
     path: '/senddata',

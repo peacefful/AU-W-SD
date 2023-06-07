@@ -5,7 +5,6 @@ import dayjs from 'dayjs'
 import SendData from './global/SendData.vue'
 import Weather from './global/Weather.vue'
 import AddUser from './global/AddUser.vue'
-import Test from './Test.vue'
 
 const currentPage = ref('AddUser')
 const pages = {
